@@ -1,0 +1,15 @@
+# CM1705-Assessment-Component-2_Question-1
+
+Version control provides a structured approach to recording edits made to a project and allows the project to be returned to a previous version.  To manually control versions of files, a person might copy their original file into another directory and add a suffix to the file name  (e.g. "version 2" or that day's date).  This approach is common because it is simple, but it is also prone to errors.  It is easy to lose track of changes between files, accidentally write to the wrong file or copy over the wrong files (Chacon, S. and Straub, B. 2022).  For version control to be implemented effectively in modern software development projects, a Version Control System must be used to keep track of, manage, add commentary, and secure changes to files (Davis, A.L., 2020).
+
+From the perspective of an individual developer, a version control system provides an environment to easily keep a track of developments in  their code and provides insurance against system crashes or data loss (GeeksforGeeks, 2022). 
+
+A version control system is of particular importance for teams of developers where there are multiple people concurrently working on the same project.  Each team member works on and edits their own copy of the files, and it is up to the individual to decide when to share them with the rest of the team.  Where two developers have committed changes that conflict with each other, the version control system will highlight where the conflict occurs and the team can make a decision about how best to merge or discard the changes (W3schools.in, no date).
+
+There are three types of VCS: 
+
+•	Local VCSs, such as Source Code Control System (SSCS), were the first type created.  They tracked changes made to files in a single database that was stored locally on a computer which meant teamwork was difficult and issues with the computer could result in work being lost (Tsitoara, M., 2020).
+
+•	Centralised VCSs, such as Apache Subversion (SVN), work by storing change history on a single server.  This allows for teamwork and provides a way to monitor how projects are progressing, however, centralised VCSs are subject to server errors resulting in work being lost (Collins-Sussman, B., W., B. and Michael, C., 2004). 
+
+•	Distributed VCSs contain multiple repositories. In distributed VCSs, each user has their own repository and working copy which greatly lowers the chance of losing information.  The most commonly used distributed VCS is Git which can be utilised through GitHub.  Git makes branching and merging easy as the entire codebase and history of a project will be available on every developer’s computer.  Each time a user edits the project, a new snapshot of the project is created (a "branch") and the changes in the branch will only be committed to the central repository ("main branch") after they have been reviewed and approved (through a "pull request") (Tsitoara, M, 2020).  As Git is popular among developers, GitHub is a great way to ensure that projects are accessible to other developers and teams (Loeliger, J. and McCullough, M., 2012).  
